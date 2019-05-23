@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.Appli{
+    display: flex;
+
+}
+
+.CarteB {
+    background-color: rgb(22, 71, 161);
+    width: 750px;
+    border-radius: 20px;
+    color: white; 
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-image: url('Sanstitre.png')
+
+}
+li{
+    style:none;
+    margin-top:72px;
+
+}
+ul{
+    text-decoration: none; 
+    style:none;
+
+    margin-top: 133px;
+}
+h1 {
+align-self: flex-end;
+font-size: 3em;
+margin-top: 0px;
+}
+.numCB {
+    /* margin: 10px; */
+    margin-bottom: 0px;
+    font-size: 2.3em;
+    letter-spacing: 5px;
+    color: #dee294;
+    background-color: rgba(251, 255, 0, 0.5);
+    width: 100%;
+}
+.text{
+    font-size: 2em;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mastercard{
+    display: flex;
+    height:95px;
+    width: 110px;
+    margin-left: 20px;
+}
+
+.vlidTHRU{
+    display: flex;
+flex-direction: row;
+margin-right: 25px;
+}
+.card-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    margin-right: 75px;
+}
+.validation{
+    margin: 0px;
+    width: 50px;
+}
+.validity {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;  
+}
+.code{
+    font-size: 1.9em;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;}
+.CodeAndValid{
+    display:flex;
+    justify-content: flex-end;
+}
+.visa {
+    height: 150px;
+}
+.firstparametre{
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: flex-end;
+}
+.year{
+    font-size: 2.2em;
+}
