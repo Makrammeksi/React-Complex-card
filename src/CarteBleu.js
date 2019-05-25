@@ -56,10 +56,7 @@ export default class CarteBancaire extends React.Component {
             })
         }
     }
-    tostringValid = (e) => {
-        this.setState({
-        })
-    }
+  
     render() {
         return (
             <div className="Appli">
@@ -85,7 +82,7 @@ export default class CarteBancaire extends React.Component {
                 <div>
                     <ul>
                         <li>Number</li>
-                        <li>Name</li>
+                        <li>Name</li> 
                         <li>Validity</li>
                     </ul>
 
